@@ -254,7 +254,7 @@ public class SimpleAudioStream extends Activity implements
 
 	@Override
 	public void onBackPressed() {
-		wrapItUp(RESULT_OK, null);
+		wrapItUp(RESULT_CANCELED, null);
 	}
 
 	@Override
